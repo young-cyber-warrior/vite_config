@@ -1,0 +1,33 @@
+{
+  "globals": {
+    "Main": true,
+    "Props": true,
+    "State": true,
+    "app": true,
+    "createRef": true,
+    "first": true,
+    "footer": true,
+    "forwardRef": true,
+    "header": true,
+    "lazy": true,
+    "memo": true,
+    "second": true,
+    "startTransition": true,
+    "third": true,
+    "useCallback": true,
+    "useContext": true,
+    "useDebugValue": true,
+    "useDeferredValue": true,
+    "useEffect": true,
+    "useId": true,
+    "useImperativeHandle": true,
+    "useInsertionEffect": true,
+    "useLayoutEffect": true,
+    "useMemo": true,
+    "useReducer": true,
+    "useRef": true,
+    "useState": true,
+    "useSyncExternalStore": true,
+    "useTransition": true
+  }
+}

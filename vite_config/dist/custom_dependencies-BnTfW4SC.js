@@ -1,0 +1,1 @@
+import{j as c}from"./vendor-fm-VLLA9.js";const n="_base_op2xs_1",r={base:n},l=({onClick:t})=>c.jsx("button",{className:r.base,onClick:t,children:"click"});function o(t){return t.reduce((s,e)=>s+e,0)}function u(t){return t.reduce((s,e)=>s*e,1)}const i={calculate:o,multiply:u};export{l as B,i as c};

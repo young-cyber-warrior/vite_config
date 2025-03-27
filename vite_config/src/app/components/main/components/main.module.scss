@@ -1,0 +1,39 @@
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.block {
+    color: $side-default-color;
+    margin-right: 10px;
+
+    &__right {
+        color: $card-default-color;
+    }
+}
+
+
+.button {
+    padding: 10px 25px;
+    cursor: pointer;
+
+    &+& {
+        margin-left: 10px;
+    }
+}
+
+.additionalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
