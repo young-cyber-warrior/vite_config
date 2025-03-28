@@ -4,15 +4,13 @@ import path from 'path';
 import AutoImport from 'unplugin-auto-import/vite';
 import { removeConsoleLog } from './plugin';
 
-const rootDir = path.resolve(__dirname, '../');
-
 // https://vite.dev/config/
 export default defineConfig({
     plugins: [
         react(),
         AutoImport({
             imports: ['react'],
-            dirs: [path.resolve(rootDir, 'src/app/**')],
+            dirs: [path.resolve('src/app/**')],
             eslintrc: {
                 enabled: true,
             },
@@ -22,8 +20,8 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '~': path.resolve(rootDir, 'src'),
-            '@global_types': path.resolve(rootDir, 'src/types'),
+            '~': path.resolve('src'),
+            '@global_types': path.resolve('src/types'),
         },
     },
     css: {
