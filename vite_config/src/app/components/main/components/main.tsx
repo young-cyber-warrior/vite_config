@@ -1,9 +1,9 @@
-import { MainProps } from '@global_types/types';
 import styles from './main.module.scss';
 import cx from 'classnames';
 import { Suspense } from 'react';
 
 import { Button } from '@mui/material';
+import { helpers } from 'helpers';
 
 const point = {
     left: 'left',
@@ -67,7 +67,7 @@ export const Main = ({ props, changeContent }: Props) => {
             </div>
 
             <div className={styles.additionalContent}>
-                {side === point.right && (
+                {helpers.isCorrectSide(side, point.right) && (
                     <Suspense fallback={<div>Loading...</div>}>
                         {additionalContent.map(({ Component }, index) => (
                             <Component key={index} />

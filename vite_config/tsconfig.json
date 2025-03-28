@@ -8,8 +8,8 @@
             "ESNext"
         ],
         "paths": {
-            "@global_types/*": [
-                "./src/types/*"
+            "helpers": [
+                "./src/helpers/index.ts"
             ]
         },
         "allowJs": false,

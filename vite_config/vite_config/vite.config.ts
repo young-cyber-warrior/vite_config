@@ -21,7 +21,7 @@ export default defineConfig({
     resolve: {
         alias: {
             '~': path.resolve('src'),
-            '@global_types': path.resolve('src/types'),
+            helpers: path.resolve('src/helpers'),
         },
     },
     css: {
